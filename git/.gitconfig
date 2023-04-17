@@ -1,8 +1,10 @@
 [core]
     editor = code --wait #para que o git tenha tempo de carregar os dados no arquivo antes de abrir
+
 [user]
 	name = Everton Brzozowy Alves
 	email = everton.brzozowy.alves@gmail.com
+    
 [alias]
     s = !git status -s
     c = !git add --all && git commit -m
