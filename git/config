@@ -1,0 +1,22 @@
+[user]
+	name = Everton Brzozowy Alves
+	email = everton.brzozowy.alves@gmail.com
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = code --wait #para que o git tenha tempo de carregar os dados no arquivo antes de abrir
+
+[alias]
+    s = !git status -s
+    c = !git add --all && git commit -m
+    l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
