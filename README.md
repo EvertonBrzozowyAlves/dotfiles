@@ -1,6 +1,3 @@
 # dotfiles
 
 ~ SWEET ~
-# dotfiles
-
-~ SWEET ~
