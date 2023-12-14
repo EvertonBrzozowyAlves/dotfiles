@@ -6,7 +6,7 @@ file-types = ["cs", "cshtml"]
 roots = ["sln", "csproj"]
 comment-token = "//"
 indent = { tab-width = 4, unit = "\t" }
-language-server = { command = "OmniSharp", args = ["--languageserver"] }
+language-servers = { command = "OmniSharp", args = ["--languageserver"] }
 
 #TODO: finish configuration
 [language.debugger]
