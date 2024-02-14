@@ -1,0 +1,50 @@
+#import = ['C:\Users\evert\.config\alacritty\catppuccin\catppuccin-mocha.toml']
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+size = 10
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = 'C:\Program Files\PowerShell\7\pwsh.exe'
+
+[window]
+decorations = "none"
+opacity = 1
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 15
+y = 10
