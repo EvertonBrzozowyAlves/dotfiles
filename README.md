@@ -6,13 +6,14 @@
 
 You can clone it your ~ directory on a new machine:
 ```bash
-git clone https://github.com/EvertonBrzozowyAlves/dotfiles.git ~/.dotfiles
+git clone https://github.com/EvertonBrzozowyAlves/dotfiles.git ~/dotfiles
 ```
 
-Symlink the files you want to configure, FROM the .dotfiles folder TO the expected file location: 
+Symlink the files you want to configure, **FROM** the dotfiles folder **TO** the expected file location: 
 ```bash
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
-``` 
+```
+> Trying Stow to improve this part!
 
 ## Brew
 
